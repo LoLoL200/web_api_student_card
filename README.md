@@ -1,29 +1,29 @@
 # Student Card Web API
 
-This is a **RESTful Web API** built with **ASP.NET Core** designed for managing student card records. The project provides a backend system to handle student information, allowing for easy integration with frontend applications or mobile clients.
+A lightweight and efficient **RESTful Web API** written in **Go (Golang)** for managing student card records. This project provides a simple backend system to handle student data via standard HTTP methods.
 
 ## 📋 Features
 
-The API implements full CRUD (Create, Read, Update, Delete) functionality for student management:
+The API supports the following operations for student management:
 
-* **Retrieve All Students:** Get a complete list of registered students.
-* **Search by ID:** Fetch detailed information about a specific student using their unique ID.
-* **Add New Students:** Register new student profiles into the system.
-* **Update Records:** Modify existing student information and academic details.
-* **Delete Records:** Remove student entries from the database.
+* **List Students:** Get all registered students.
+* **Get Student:** Retrieve specific details by student ID.
+* **Create Student:** Add a new student record to the system.
+* **Update Student:** Modify existing student information.
+* **Delete Student:** Remove a student record from the database.
 
 ## 🛠 Tech Stack
 
-* **Language:** C#
-* **Framework:** .NET Core
-* **API Documentation:** Swagger / OpenAPI for easy testing and exploration.
+* **Language:** Go (Golang)
+* **Framework:** Standard Library / [Mention your framework here, e.g., Gin or Fiber if used]
+* **Format:** JSON
 
 ## 🚀 Installation & Setup
 
 Follow these steps to get the project running locally:
 
 ### 1. Prerequisites
-Ensure you have the [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+Make sure you have [Go](https://go.dev/dl/) installed (version 1.18 or higher recommended).
 
 ### 2. Clone the Repository
 ```bash
